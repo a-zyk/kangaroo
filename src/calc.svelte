@@ -18,7 +18,7 @@
 	$: carbCal = (mer - oilCal - kangarooCal).toFixed(2);
 </script>
 
-<div class="flex items-center mt-20">
+<div class="sm:text-lg flex items-center mt-20">
 	<div
 		class="rounded-lg shadow-md p-5 bg-white border-gray-200 border  mx-auto inline-flex flex-col "
 	>
