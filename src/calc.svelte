@@ -18,17 +18,18 @@
 	$: carbCal = (mer - oilCal - kangarooCal).toFixed(2);
 </script>
 
-<div class="sm:text-lg flex items-center mt-20">
+<div class="text-lg flex items-center mt-56 md:mt-20">
 	<div
 		class="rounded-lg shadow-md p-5 bg-white border-gray-200 border  mx-auto inline-flex flex-col "
 	>
 
 	{#if $weight.kg && $weight.carbs }
-		<div><span class="font-bold">Kangaroo</span> needed per day {totalKangaroo} g</div>
+	<div class="text-center font-bold mb-3">Day requirement</div>
+		<div><span class="font-bold">Kangaroo</span> {totalKangaroo} g</div>
 
-		<div> <span class="font-bold">Sunflower oil</span> needed {oils} ml</div>
+		<div> <span class="font-bold">Sunflower oil</span> {oils} ml</div>
 
-		<div class="pb-2"><span class="font-bold">Total cooked carb</span> {carb} g</div>
+		<div class="pb-2"><span class="font-bold">Cooked carb</span> {carb} g</div>
 		{/if}
 
 		<div class="pb-2">
