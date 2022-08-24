@@ -1,5 +1,5 @@
 <script>
-	import { weight } from '../src/stores/store.js';
+	import { weight } from '../stores/store.js';
 
 	$: mer = ($weight.kg ** 0.75 * 95).toFixed(2);
 

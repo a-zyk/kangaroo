@@ -1,5 +1,7 @@
 <script>
-    import Calc from "../../src/calc.svelte"
+    import Calc from "../components/calc.svelte"
+  
 </script>
 
 <Calc/>
+
